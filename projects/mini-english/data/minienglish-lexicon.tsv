@@ -1,0 +1,105 @@
+Amber	M
+Brad	M
+Claire	M
+Dean	M
+Eva	M
+Fred	M
+Gwen	M
+Hank	M
+#----------------------
+boy	N
+boys	N	boy
+girl	N
+girls	N	girl
+animal	N
+animals	N	animal
+zombie	N
+zombies	N	zombie
+brother	N
+brothers	N	brother
+sister	N
+sisters	N	sister
+friend	N
+friends	N	friend
+cup	N
+cups	N	cup
+toy	N
+toys	N	toy
+bird	N
+birds	N	bird
+cat	N
+cats	N	cat
+house	N
+houses	N	house
+hill	N
+hills	N	hill
+road	N
+roads	N	road
+cloud	N
+clouds	N	cloud
+tree	N
+trees	N	tree
+#----------------------
+happy	A
+sad	A
+big	A
+small	A
+cruel	A
+fat	A
+sick	A
+nice	A
+new	A
+old	A
+#----------------------
+a	D
+the	D
+this	D
+some	D
+these	D	this
+my	D
+your	D
+our	D
+their	D
+#----------------------
+I	O
+you	O
+he	O
+she	O
+it	O
+they	O
+#----------------------
+liked	V	like
+hated	V	hate
+flew	V	fly
+ran	V	run
+gave	V	give
+showed	V	show
+talked	V	talk
+came	V	come
+stopped	V	stop
+caught	V	catch
+ate	V	eat
+killed	V	kill
+#----------------------
+to	P
+about	P
+in	P
+at	P
+on	P
+above	P
+below	P
+near	P
+across	P
+with	P
+without	P
+#----------------------
+and	C
+or	C
+#----------------------
+that	U
+because	U
+although	U
+whenever	U
+#----------------------
+,	COMMA
+.	FULLSTOP

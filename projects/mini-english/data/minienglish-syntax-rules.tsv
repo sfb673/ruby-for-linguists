@@ -1,0 +1,23 @@
+NP	N
+NP	A	NP
+NP_	D	NP
+NP_	M
+#---------------------------------
+PP_	P	NP_
+NP_	NP_	PP_
+#---------------------------------
+VP	V
+VP	V	NP_
+VP	V	NP_	NP_
+VP_	VP
+#---------------------------------
+SEN	NP_	VP_
+SEN	SEN	C	SEN
+SEN	SEN	COMMA	C	SEN
+SEN	SEN	U	SEN
+SEN	SEN	COMMA	U	SEN
+SEN_	SEN	FULLSTOP
+#---------------------------------
+NP_	NP_	C	NP_
+VP_	VP_	C	VP_
+PP_	PP_	C	PP_
