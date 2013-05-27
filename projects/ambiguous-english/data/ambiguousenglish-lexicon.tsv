@@ -1,0 +1,51 @@
+#------------------------------------
+# Ambiguous English
+# LEXICON
+#------------------------------------
+fly	N 
+flies	N	fly
+time	N
+times	N	time
+run	N
+runs	N	run
+jump	N
+jumps	N	jump
+hate	N
+hates	N	hate
+bird	N
+birds	N	bird
+dog	N
+dogs	N	dog
+green	N
+greens	N	green
+#--------------------------------------
+the	D
+some	D
+my	D
+your	D
+#--------------------------------------
+hate	V
+hates	V	hate
+fly	V
+flies	V	fly
+time	V
+times	V	time
+run	V
+runs	V	run
+jump	V
+jumps	V	jump
+see	V
+sees	V	see
+hear	V
+hears	V	hear
+#--------------------------------------
+red	A
+green	A
+blue	A
+fly	A
+#--------------------------------------
+with	P
+to	P
+#--------------------------------------
+,	COMMA
+.	FULLSTOP
