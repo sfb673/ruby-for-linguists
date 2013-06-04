@@ -10,6 +10,7 @@ def nearest_vowel_first_attempt(f1, f2)
     resulting_distances << d1+d2
   end
   min_distance = resulting_distances.min
-  min_index = resulting_distances.index(min_distance) matching_vowel = vowel_array[min_index]
+  min_index = resulting_distances.index(min_distance)
+  matching_vowel = vowel_array[min_index]
   return matching_vowel
 end
