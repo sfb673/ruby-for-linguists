@@ -1,5 +1,7 @@
 # encoding: utf-8
 
+require 'singleton'
+
 # a simple tokenizer that splits a string into tokens
 # based on a regular expression and returns a
 # {TokenizedText} objecct.
@@ -15,7 +17,7 @@ class SimpleTokenizer
   def tokenize(string)
     tt = TokenizedText.new
     string.split(/\s*\b/).each do |raw_token|
-      tt << Token.new(raw_token)
+      tt << Token.new(raw_token.strip)
     end
     tt
   end
