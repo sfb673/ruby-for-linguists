@@ -6,9 +6,9 @@ NP_	M
 PP_	P	NP_
 NP_	NP_	PP_
 #---------------------------------
-VP	V
-VP	V	NP_
 VP	V	NP_	NP_
+VP	V	NP_
+VP	V
 VP_	VP
 #---------------------------------
 SEN	NP_	VP_
