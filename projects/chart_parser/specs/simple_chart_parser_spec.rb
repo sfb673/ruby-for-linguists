@@ -91,6 +91,7 @@ describe Chart do
 
     context 'parse' do
 
+      # Sie können diesen Test verwenden, um Sätze zu parsen.
       it 'can parse' do
         @scp.parse "a zombie with a cat", 'NP_'
       end
