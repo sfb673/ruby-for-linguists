@@ -160,17 +160,33 @@ describe SimpleTree do
         # Knoten ist gleichzeitig Wurzel und Blatt).
         # Als Einstieg:
         @d.parent.should be_nil
+
+        @d.children.should be_empty
+        @d.is_root?.should be true
+        @d.is_leaf?.should be true
+
       end
 
       it 'after linking, it reports correct parent-child information' do
         # In diesem Test sollen Sie prüfen, ob der Baum die korrekte
         # Eltern-Kind-Info liefert (Methoden parent, children, child_count),
         # wenn Sie jetzt den Knoten @d als Kind unter den Knoten @c hängen.
+
+        @tree.link(@c, @d)
+
+        @c.children.size.should be 1
+        @c.children.first.should be @d
+        @d.parent.should be @c
+
       end
 
       it 'ensures that no node ever gets more than one parent' do
         # Hängen Sie hier nun Knoten @c als Kind unter @b, und testen Sie,
         # ob @b danach immer noch höchstens ein Elternelement hat.
+
+        @tree.link(@b, @c)
+        @c.parent.should be @b
+
       end
 
     end

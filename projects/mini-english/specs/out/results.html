@@ -290,38 +290,71 @@ a {
 <div id="div_group_2" class="example_group passed">
   <dl style="margin-left: 15px;">
   <dt id="example_group_2" class="passed">A fresh, new tree</dt>
+    <script type="text/javascript">moveProgressBar('5.5');</script>
+    <dd class="example passed"><span class="passed_spec_name">is empty</span><span class='duration'>0.00108s</span></dd>
     <script type="text/javascript">moveProgressBar('11.1');</script>
-    <dd class="example passed"><span class="passed_spec_name">is empty</span><span class='duration'>0.00096s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">has a size of zero</span><span class='duration'>0.00012s</span></dd>
+    <script type="text/javascript">moveProgressBar('16.6');</script>
+    <dd class="example passed"><span class="passed_spec_name">has no roots</span><span class='duration'>0.00268s</span></dd>
     <script type="text/javascript">moveProgressBar('22.2');</script>
-    <dd class="example passed"><span class="passed_spec_name">has a size of zero</span><span class='duration'>0.00013s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">has a root count of zero</span><span class='duration'>0.00012s</span></dd>
+    <script type="text/javascript">moveProgressBar('27.7');</script>
+    <dd class="example passed"><span class="passed_spec_name">has no leaves</span><span class='duration'>0.00012s</span></dd>
     <script type="text/javascript">moveProgressBar('33.3');</script>
-    <dd class="example passed"><span class="passed_spec_name">has no roots</span><span class='duration'>0.00267s</span></dd>
-    <script type="text/javascript">moveProgressBar('44.4');</script>
-    <dd class="example passed"><span class="passed_spec_name">has a root count of zero</span><span class='duration'>0.00015s</span></dd>
-    <script type="text/javascript">moveProgressBar('55.5');</script>
-    <dd class="example passed"><span class="passed_spec_name">has no leaves</span><span class='duration'>0.00013s</span></dd>
-    <script type="text/javascript">moveProgressBar('66.6');</script>
     <dd class="example passed"><span class="passed_spec_name">has a leaf count of zero</span><span class='duration'>0.00012s</span></dd>
   </dl>
 </div>
 <div id="div_group_3" class="example_group passed">
   <dl style="margin-left: 15px;">
   <dt id="example_group_3" class="passed">The first example tree</dt>
-    <script type="text/javascript">moveProgressBar('77.7');</script>
-    <dd class="example passed"><span class="passed_spec_name">has two leaves</span><span class='duration'>0.00083s</span></dd>
   </dl>
 </div>
 <div id="div_group_4" class="example_group passed">
   <dl style="margin-left: 30px;">
   <dt id="example_group_4" class="passed">considering roots</dt>
-    <script type="text/javascript">moveProgressBar('88.8');</script>
-    <dd class="example passed"><span class="passed_spec_name">has one root</span><span class='duration'>0.00014s</span></dd>
-    <script type="text/javascript">moveProgressBar('100.0');</script>
-    <dd class="example passed"><span class="passed_spec_name">has NP as its root</span><span class='duration'>0.00015s</span></dd>
+    <script type="text/javascript">moveProgressBar('38.8');</script>
+    <dd class="example passed"><span class="passed_spec_name">has one root</span><span class='duration'>0.00095s</span></dd>
+    <script type="text/javascript">moveProgressBar('44.4');</script>
+    <dd class="example passed"><span class="passed_spec_name">has NP as its root</span><span class='duration'>0.00014s</span></dd>
   </dl>
 </div>
-<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>0.00684 seconds</strong>";</script>
-<script type="text/javascript">document.getElementById('totals').innerHTML = "9 examples, 0 failures";</script>
+<div id="div_group_5" class="example_group passed">
+  <dl style="margin-left: 30px;">
+  <dt id="example_group_5" class="passed">considering leaves</dt>
+    <script type="text/javascript">moveProgressBar('50.0');</script>
+    <dd class="example passed"><span class="passed_spec_name">has two leaves</span><span class='duration'>0.00013s</span></dd>
+    <script type="text/javascript">moveProgressBar('55.5');</script>
+    <dd class="example passed"><span class="passed_spec_name">has D as its first leaf</span><span class='duration'>0.00012s</span></dd>
+    <script type="text/javascript">moveProgressBar('61.1');</script>
+    <dd class="example passed"><span class="passed_spec_name">has N as its second leaf</span><span class='duration'>0.00015s</span></dd>
+  </dl>
+</div>
+<div id="div_group_6" class="example_group passed">
+  <dl style="margin-left: 30px;">
+  <dt id="example_group_6" class="passed">considering linkage</dt>
+    <script type="text/javascript">moveProgressBar('66.6');</script>
+    <dd class="example passed"><span class="passed_spec_name">links NP to a child D</span><span class='duration'>0.00124s</span></dd>
+    <script type="text/javascript">moveProgressBar('72.2');</script>
+    <dd class="example passed"><span class="passed_spec_name">links NP to a child N</span><span class='duration'>0.00026s</span></dd>
+    <script type="text/javascript">moveProgressBar('77.7');</script>
+    <dd class="example passed"><span class="passed_spec_name">links D to a parent NP</span><span class='duration'>0.00023s</span></dd>
+    <script type="text/javascript">moveProgressBar('83.3');</script>
+    <dd class="example passed"><span class="passed_spec_name">links N to a parent NP</span><span class='duration'>0.00017s</span></dd>
+  </dl>
+</div>
+<div id="div_group_7" class="example_group passed">
+  <dl style="margin-left: 30px;">
+  <dt id="example_group_7" class="passed">linking and moving nodes</dt>
+    <script type="text/javascript">moveProgressBar('88.8');</script>
+    <dd class="example passed"><span class="passed_spec_name">reports correct info for isolated nodes</span><span class='duration'>0.00022s</span></dd>
+    <script type="text/javascript">moveProgressBar('94.4');</script>
+    <dd class="example passed"><span class="passed_spec_name">after linking, it reports correct parent-child information</span><span class='duration'>0.00018s</span></dd>
+    <script type="text/javascript">moveProgressBar('100.0');</script>
+    <dd class="example passed"><span class="passed_spec_name">ensures that no node ever gets more than one parent</span><span class='duration'>0.00018s</span></dd>
+  </dl>
+</div>
+<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>0.01131 seconds</strong>";</script>
+<script type="text/javascript">document.getElementById('totals').innerHTML = "18 examples, 0 failures";</script>
 </div>
 </div>
 </body>
