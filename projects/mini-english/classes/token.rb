@@ -40,4 +40,8 @@ class Token
     (!@pos.nil?) && (!@lemma.nil?)
   end
 
+  def to_s
+    "#{wordform}(#{pos})/#{lemma.to_s}/"
+  end
+
 end
