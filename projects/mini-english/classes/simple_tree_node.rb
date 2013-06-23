@@ -25,4 +25,8 @@ class SimpleTreeNode
     @tree.is_leaf?(self)
   end
 
+  def to_s
+    value
+  end
+
 end
